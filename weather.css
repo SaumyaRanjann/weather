@@ -1,0 +1,48 @@
+:root {
+    background-color: #c9e1fc;
+    font-size: 110%;
+  }
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 46, 46);
+}
+#hero{
+    width: 100%;
+    height:40vh;
+    background: url(../WeatherProject/weather.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box1{
+    background-color: darkseagreen;
+}
+.container{
+    /* background-color:rgb(226, 164, 246);
+    /* padding: 50px 20px 10px 10px; */
+    /* border: 1px skyblue;
+    width: 100%; */ 
+    width: 100%;
+    height:40vh;
+    background:url(../WeatherProject/cloud.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
